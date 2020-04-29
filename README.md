@@ -1,7 +1,14 @@
-# a4-s19
+# solar-system
 
-Use this codebase not only for your Assignment 4, but for your Team Project!  Do not use assignment 3's; if you have already started something, copy it over to this codebase.
+### how to run
 
-Assignment instructions:
+```bash
+$ git clone
+```
 
-https://docs.google.com/document/d/1d8A0aIGXSEodmgQUyssuTVANDphaBykTY0B2CTHTEWI/edit?usp=sharing
+1. go to your folder
+2. open "host.bat" if on Windows, "host.command" if on Mac
+3. look in resulting console window and check if it contains a message beginning with "Serving HTTP on ..."— if not, you may not have Python installed; go download and install first.
+4. now you're hosting a fake server— keep the window open.
+5. open your web browser (preferably Google Chrome) and navigate to http://localhost:8000/ (assuming the console window's message said port 8000, if not, change the number in the URL to match.
+6. observe!
